@@ -1,0 +1,62 @@
+C:\Users\Luca\documents\visual studio 2015\Projects\Project\Project\obj\Debug\Project.Properties.Resources.resources
+C:\Users\Luca\documents\visual studio 2015\Projects\Project\Project\obj\Debug\Project.view.AvailableUsersView.resources
+C:\Users\Luca\documents\visual studio 2015\Projects\Project\Project\obj\Debug\Project.view.ClientForm.resources
+C:\Users\Luca\documents\visual studio 2015\Projects\Project\Project\obj\Debug\Project.view.DifficultiesView.resources
+C:\Users\Luca\documents\visual studio 2015\Projects\Project\Project\obj\Debug\Project.view.GameView.resources
+C:\Users\Luca\documents\visual studio 2015\Projects\Project\Project\obj\Debug\Project.view.ServerForm.resources
+C:\Users\Luca\documents\visual studio 2015\Projects\Project\Project\obj\Debug\Project.view.StatisticsForm.resources
+C:\Users\Luca\documents\visual studio 2015\Projects\Project\Project\obj\Debug\Project.view.StatisticsView.resources
+C:\Users\Luca\documents\visual studio 2015\Projects\Project\Project\obj\Debug\Project.csproj.GenerateResource.Cache
+C:\Users\Luca\documents\visual studio 2015\Projects\Project\Project\bin\Debug\Project.exe
+C:\Users\Luca\documents\visual studio 2015\Projects\Project\Project\bin\Debug\Project.pdb
+C:\Users\Luca\documents\visual studio 2015\Projects\Project\Project\obj\Debug\Project.exe
+C:\Users\Luca\documents\visual studio 2015\Projects\Project\Project\obj\Debug\Project.pdb
+C:\Users\Luca\documents\visual studio 2015\Projects\Project\Project\obj\Debug\Project.view.BonusView.resources
+C:\Users\Luca\documents\visual studio 2015\Projects\Project\Project\obj\Debug\Project.view.VocabularyView.resources
+C:\Users\Luca\documents\visual studio 2015\Projects\Project\Project\obj\Debug\Project.csprojResolveAssemblyReference.cache
+C:\Users\Luca\Desktop\Project\Project\bin\Debug\Project.exe
+C:\Users\Luca\Desktop\Project\Project\bin\Debug\Project.pdb
+C:\Users\Luca\Desktop\Project\Project\obj\Debug\Project.Properties.Resources.resources
+C:\Users\Luca\Desktop\Project\Project\obj\Debug\Project.view.ButtonView.resources
+C:\Users\Luca\Desktop\Project\Project\obj\Debug\Project.view.AvailableUsersView.resources
+C:\Users\Luca\Desktop\Project\Project\obj\Debug\Project.view.DifficultyView.resources
+C:\Users\Luca\Desktop\Project\Project\obj\Debug\Project.view.RankingForm.resources
+C:\Users\Luca\Desktop\Project\Project\obj\Debug\Project.view.RankingView.resources
+C:\Users\Luca\Desktop\Project\Project\obj\Debug\Project.view.LoginForm.resources
+C:\Users\Luca\Desktop\Project\Project\obj\Debug\Project.view.LoginView.resources
+C:\Users\Luca\Desktop\Project\Project\obj\Debug\Project.view.BonusView.resources
+C:\Users\Luca\Desktop\Project\Project\obj\Debug\Project.view.ClientForm.resources
+C:\Users\Luca\Desktop\Project\Project\obj\Debug\Project.view.DifficultiesView.resources
+C:\Users\Luca\Desktop\Project\Project\obj\Debug\Project.view.GameView.resources
+C:\Users\Luca\Desktop\Project\Project\obj\Debug\Project.view.ServerForm.resources
+C:\Users\Luca\Desktop\Project\Project\obj\Debug\Project.view.StatisticsForm.resources
+C:\Users\Luca\Desktop\Project\Project\obj\Debug\Project.view.StatisticsView.resources
+C:\Users\Luca\Desktop\Project\Project\obj\Debug\Project.view.VocabularyView.resources
+C:\Users\Luca\Desktop\Project\Project\obj\Debug\Project.csproj.GenerateResource.Cache
+C:\Users\Luca\Desktop\Project\Project\obj\Debug\Project.exe
+C:\Users\Luca\Desktop\Project\Project\obj\Debug\Project.pdb
+C:\Users\Luca\Desktop\backup\Project\obj\Debug\Project.exe
+C:\Users\Luca\Desktop\backup\Project\obj\Debug\Project.pdb
+C:\Users\Luca\Desktop\Project\Project\bin\Debug\DevComponents.DotNetBar2.dll
+C:\Users\Luca\Desktop\Project\Project\bin\Debug\DevComponents.DotNetBar2.xml
+C:\Users\Luca\Desktop\Project\Project\obj\Debug\Project.csprojResolveAssemblyReference.cache
+C:\Users\Mattia\Documents\Mia\Università\Ingegneria del SW\Progetto\Definitivo\Project\Project\obj\Debug\Project.exe
+C:\Users\Mattia\Documents\Mia\Università\Ingegneria del SW\Progetto\Definitivo\Project\Project\obj\Debug\Project.pdb
+C:\Users\Mattia\Documents\Mia\Università\Ingegneria del SW\Progetto\Definitivo\Project\Project\obj\Debug\Project.csprojResolveAssemblyReference.cache
+C:\Users\Mattia\Documents\Mia\Università\Ingegneria del SW\Progetto\Definitivo\Project\Project\obj\Debug\Project.Properties.Resources.resources
+C:\Users\Mattia\Documents\Mia\Università\Ingegneria del SW\Progetto\Definitivo\Project\Project\obj\Debug\Project.view.StatisticsView.resources
+C:\Users\Mattia\Documents\Mia\Università\Ingegneria del SW\Progetto\Definitivo\Project\Project\obj\Debug\Project.view.GameView.resources
+C:\Users\Mattia\Documents\Mia\Università\Ingegneria del SW\Progetto\Definitivo\Project\Project\obj\Debug\Project.view.ButtonView.resources
+C:\Users\Mattia\Documents\Mia\Università\Ingegneria del SW\Progetto\Definitivo\Project\Project\obj\Debug\Project.view.AvailableUsersView.resources
+C:\Users\Mattia\Documents\Mia\Università\Ingegneria del SW\Progetto\Definitivo\Project\Project\obj\Debug\Project.view.DifficultyView.resources
+C:\Users\Mattia\Documents\Mia\Università\Ingegneria del SW\Progetto\Definitivo\Project\Project\obj\Debug\Project.view.RankingForm.resources
+C:\Users\Mattia\Documents\Mia\Università\Ingegneria del SW\Progetto\Definitivo\Project\Project\obj\Debug\Project.view.RankingView.resources
+C:\Users\Mattia\Documents\Mia\Università\Ingegneria del SW\Progetto\Definitivo\Project\Project\obj\Debug\Project.view.LoginForm.resources
+C:\Users\Mattia\Documents\Mia\Università\Ingegneria del SW\Progetto\Definitivo\Project\Project\obj\Debug\Project.view.LoginView.resources
+C:\Users\Mattia\Documents\Mia\Università\Ingegneria del SW\Progetto\Definitivo\Project\Project\obj\Debug\Project.view.BonusView.resources
+C:\Users\Mattia\Documents\Mia\Università\Ingegneria del SW\Progetto\Definitivo\Project\Project\obj\Debug\Project.view.ClientForm.resources
+C:\Users\Mattia\Documents\Mia\Università\Ingegneria del SW\Progetto\Definitivo\Project\Project\obj\Debug\Project.view.DifficultiesView.resources
+C:\Users\Mattia\Documents\Mia\Università\Ingegneria del SW\Progetto\Definitivo\Project\Project\obj\Debug\Project.view.ServerForm.resources
+C:\Users\Mattia\Documents\Mia\Università\Ingegneria del SW\Progetto\Definitivo\Project\Project\obj\Debug\Project.view.StatisticsForm.resources
+C:\Users\Mattia\Documents\Mia\Università\Ingegneria del SW\Progetto\Definitivo\Project\Project\obj\Debug\Project.view.VocabularyView.resources
+C:\Users\Mattia\Documents\Mia\Università\Ingegneria del SW\Progetto\Definitivo\Project\Project\obj\Debug\Project.csproj.GenerateResource.Cache

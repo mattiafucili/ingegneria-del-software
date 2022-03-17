@@ -1,0 +1,266 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3AE28114-C2A9-4D98-9436-00E1D718CCFF}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Project</RootNamespace>
+    <AssemblyName>Project</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevComponents.DotNetBar2, Version=12.5.0.2, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="model\helps\HelpStrategy.cs" />
+    <Compile Include="model\helps\BestWordHelpAlgorithm.cs" />
+    <Compile Include="model\helps\HelpAlgorithm.cs" />
+    <Compile Include="model\helps\Help.cs" />
+    <Compile Include="model\helps\HelpFactory.cs" />
+    <Compile Include="model\players\HistoryElement.cs" />
+    <Compile Include="model\players\PrivateStatistics.cs" />
+    <Compile Include="model\manager\Manager.cs" />
+    <Compile Include="model\manager\PlayerArgs.cs" />
+    <Compile Include="model\algorithms\BonusAlgorithm.cs" />
+    <Compile Include="model\algorithms\BonusAlgorithmStrategy.cs" />
+    <Compile Include="model\algorithms\DoublerAlgorithm.cs" />
+    <Compile Include="model\difficulties\Difficulty.cs" />
+    <Compile Include="model\game\PrivateGame.cs" />
+    <Compile Include="model\game\Game.cs" />
+    <Compile Include="model\players\Computer.cs" />
+    <Compile Include="model\difficulties\Difficulties.cs" />
+    <Compile Include="model\difficulties\DifficultyFlyweight.cs" />
+    <Compile Include="model\players\Statistics.cs" />
+    <Compile Include="model\players\Player.cs" />
+    <Compile Include="model\algorithms\SquareAlgorithm.cs" />
+    <Compile Include="model\algorithms\TriplerAlgorithm.cs" />
+    <Compile Include="model\game\Round.cs" />
+    <Compile Include="model\helps\RandomHelpAlgorithm.cs" />
+    <Compile Include="model\vocabulary\Vocabulary.cs" />
+    <Compile Include="model\vocabulary\Word.cs" />
+    <Compile Include="model\players\User.cs" />
+    <Compile Include="model\players\Users.cs" />
+    <Compile Include="model\letters\Letter.cs" />
+    <Compile Include="model\letters\LetterFlyweight.cs" />
+    <Compile Include="model\letters\Letters.cs" />
+    <Compile Include="model\vocabulary\PrivateWord.cs" />
+    <Compile Include="presenter\server\ButtonPresenter.cs" />
+    <Compile Include="presenter\client\AbstractPresenter.cs" />
+    <Compile Include="presenter\client\AvailableUsersPresenter.cs" />
+    <Compile Include="presenter\client\DifficultyPresenter.cs" />
+    <Compile Include="presenter\client\RankingPresenter.cs" />
+    <Compile Include="presenter\server\LoginPresenter.cs" />
+    <Compile Include="presenter\server\BonusPresenter.cs" />
+    <Compile Include="presenter\client\ClientFormPresenter.cs" />
+    <Compile Include="presenter\client\DifficultiesPresenter.cs" />
+    <Compile Include="presenter\client\GamePresenter.cs" />
+    <Compile Include="presenter\client\StatisticsPresenter.cs" />
+    <Compile Include="presenter\server\VocabularyPresenter.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="view\client\GameView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="view\client\GameView.Designer.cs">
+      <DependentUpon>GameView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view\server\ButtonView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="view\server\ButtonView.Designer.cs">
+      <DependentUpon>ButtonView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view\client\AvailableUsersView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="view\client\AvailableUsersView.Designer.cs">
+      <DependentUpon>AvailableUsersView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view\client\DifficultyView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="view\client\DifficultyView.Designer.cs">
+      <DependentUpon>DifficultyView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view\client\RankingForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\client\RankingForm.Designer.cs">
+      <DependentUpon>RankingForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view\client\RankingView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="view\client\RankingView.Designer.cs">
+      <DependentUpon>RankingView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view\server\LoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\server\LoginForm.Designer.cs">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view\server\LoginView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="view\server\LoginView.Designer.cs">
+      <DependentUpon>LoginView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view\server\BonusView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="view\server\BonusView.Designer.cs">
+      <DependentUpon>BonusView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view\client\ClientForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\client\ClientForm.Designer.cs">
+      <DependentUpon>ClientForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view\client\DifficultiesView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="view\client\DifficultiesView.Designer.cs">
+      <DependentUpon>DifficultiesView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view\server\ServerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\server\ServerForm.Designer.cs">
+      <DependentUpon>ServerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view\client\StatisticsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\client\StatisticsForm.Designer.cs">
+      <DependentUpon>StatisticsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view\server\VocabularyView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="view\server\VocabularyView.Designer.cs">
+      <DependentUpon>VocabularyView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view\client\StatisticsView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="view\client\StatisticsView.Designer.cs">
+      <DependentUpon>StatisticsView.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="view\client\StatisticsView.resx">
+      <DependentUpon>StatisticsView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\client\GameView.resx">
+      <DependentUpon>GameView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\server\ButtonView.resx">
+      <DependentUpon>ButtonView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\client\AvailableUsersView.resx">
+      <DependentUpon>AvailableUsersView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\client\DifficultyView.resx">
+      <DependentUpon>DifficultyView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\client\RankingForm.resx">
+      <DependentUpon>RankingForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\client\RankingView.resx">
+      <DependentUpon>RankingView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\server\LoginForm.resx">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\server\LoginView.resx">
+      <DependentUpon>LoginView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\server\BonusView.resx">
+      <DependentUpon>BonusView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\client\ClientForm.resx">
+      <DependentUpon>ClientForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\client\DifficultiesView.resx">
+      <DependentUpon>DifficultiesView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\server\ServerForm.resx">
+      <DependentUpon>ServerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\client\StatisticsForm.resx">
+      <DependentUpon>StatisticsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\server\VocabularyView.resx">
+      <DependentUpon>VocabularyView.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gameName.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ranking.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\statistics.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
